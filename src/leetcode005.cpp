@@ -11,6 +11,7 @@ public:
     string longestPalindrome(string s) {
 
         int n = s.size();
+        if (n<=1) return s;
         bool f[n][n];
         fill_n(&f[0][0], n*n, false);
         int maxLen = 1;
