@@ -1,0 +1,14 @@
+CMakeFiles
+*.make
+*.cmake
+*.txt
+*.bin
+*.marks
+
+*.exe
+*.out
+*.app
+
+*.dir
+
+.idea
