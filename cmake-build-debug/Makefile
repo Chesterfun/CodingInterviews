@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named leetcode005
+
+# Build rule for target.
+leetcode005: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode005
+.PHONY : leetcode005
+
+# fast build rule for target.
+leetcode005/fast:
+	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/build
+.PHONY : leetcode005/fast
+
+#=============================================================================
 # Target rules for targets named eg014
 
 # Build rule for target.
@@ -975,6 +988,33 @@ src/leetcode004.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode004.dir/build.make CMakeFiles/leetcode004.dir/src/leetcode004.cpp.s
 .PHONY : src/leetcode004.cpp.s
 
+src/leetcode005.o: src/leetcode005.cpp.o
+
+.PHONY : src/leetcode005.o
+
+# target to build an object file
+src/leetcode005.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/src/leetcode005.cpp.o
+.PHONY : src/leetcode005.cpp.o
+
+src/leetcode005.i: src/leetcode005.cpp.i
+
+.PHONY : src/leetcode005.i
+
+# target to preprocess a source file
+src/leetcode005.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/src/leetcode005.cpp.i
+.PHONY : src/leetcode005.cpp.i
+
+src/leetcode005.s: src/leetcode005.cpp.s
+
+.PHONY : src/leetcode005.s
+
+# target to generate assembly for a file
+src/leetcode005.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/src/leetcode005.cpp.s
+.PHONY : src/leetcode005.cpp.s
+
 src/leetcode021.o: src/leetcode021.cpp.o
 
 .PHONY : src/leetcode021.o
@@ -1118,6 +1158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... leetcode005"
 	@echo "... eg014"
 	@echo "... memory"
 	@echo "... leetcode021"
@@ -1203,6 +1244,9 @@ help:
 	@echo "... src/leetcode004.o"
 	@echo "... src/leetcode004.i"
 	@echo "... src/leetcode004.s"
+	@echo "... src/leetcode005.o"
+	@echo "... src/leetcode005.i"
+	@echo "... src/leetcode005.s"
 	@echo "... src/leetcode021.o"
 	@echo "... src/leetcode021.i"
 	@echo "... src/leetcode021.s"
