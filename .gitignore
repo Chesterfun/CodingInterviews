@@ -12,3 +12,5 @@ CMakeFiles
 *.dir
 
 .idea
+
+cmake-build-debug
