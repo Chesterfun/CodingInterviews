@@ -1,4 +1,4 @@
-/home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/chester/fun/CodingInterviews
+/home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/chester/exercises/CodingInterviews
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/chester/fun/CodingInterviews/cmake-build-debug
+-- Build files have been written to: /home/chester/exercises/CodingInterviews/cmake-build-debug

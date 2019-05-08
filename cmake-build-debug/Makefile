@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chester/fun/CodingInterviews
+CMAKE_SOURCE_DIR = /home/chester/exercises/CodingInterviews
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chester/fun/CodingInterviews/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chester/exercises/CodingInterviews/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/chester/fun/CodingInterviews/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -213,6 +213,19 @@ eg005added: cmake_check_build_system
 eg005added/fast:
 	$(MAKE) -f CMakeFiles/eg005added.dir/build.make CMakeFiles/eg005added.dir/build
 .PHONY : eg005added/fast
+
+#=============================================================================
+# Target rules for targets named leetcode007
+
+# Build rule for target.
+leetcode007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode007
+.PHONY : leetcode007
+
+# fast build rule for target.
+leetcode007/fast:
+	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/build
+.PHONY : leetcode007/fast
 
 #=============================================================================
 # Target rules for targets named eg005
@@ -1015,6 +1028,33 @@ src/leetcode005.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/src/leetcode005.cpp.s
 .PHONY : src/leetcode005.cpp.s
 
+src/leetcode007.o: src/leetcode007.cpp.o
+
+.PHONY : src/leetcode007.o
+
+# target to build an object file
+src/leetcode007.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/src/leetcode007.cpp.o
+.PHONY : src/leetcode007.cpp.o
+
+src/leetcode007.i: src/leetcode007.cpp.i
+
+.PHONY : src/leetcode007.i
+
+# target to preprocess a source file
+src/leetcode007.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/src/leetcode007.cpp.i
+.PHONY : src/leetcode007.cpp.i
+
+src/leetcode007.s: src/leetcode007.cpp.s
+
+.PHONY : src/leetcode007.s
+
+# target to generate assembly for a file
+src/leetcode007.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/src/leetcode007.cpp.s
+.PHONY : src/leetcode007.cpp.s
+
 src/leetcode021.o: src/leetcode021.cpp.o
 
 .PHONY : src/leetcode021.o
@@ -1166,6 +1206,7 @@ help:
 	@echo "... leetcode031"
 	@echo "... leetcode001"
 	@echo "... eg005added"
+	@echo "... leetcode007"
 	@echo "... eg005"
 	@echo "... leetcode189"
 	@echo "... eg052"
@@ -1247,6 +1288,9 @@ help:
 	@echo "... src/leetcode005.o"
 	@echo "... src/leetcode005.i"
 	@echo "... src/leetcode005.s"
+	@echo "... src/leetcode007.o"
+	@echo "... src/leetcode007.i"
+	@echo "... src/leetcode007.s"
 	@echo "... src/leetcode021.o"
 	@echo "... src/leetcode021.i"
 	@echo "... src/leetcode021.s"
