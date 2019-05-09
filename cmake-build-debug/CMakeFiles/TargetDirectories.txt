@@ -11,6 +11,7 @@
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/eg005added.dir
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode007.dir
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/eg005.dir
+/home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode008.dir
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode189.dir
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/eg052.dir
 /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode004.dir

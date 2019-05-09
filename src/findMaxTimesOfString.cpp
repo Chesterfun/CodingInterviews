@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <unordered_map>
+#include <string>
 
 using namespace std;
 
@@ -13,10 +14,10 @@ public:
     unordered_map<char, int> findMaxTimes(string str)
     {
         unordered_map<char , int> res;
-        const char *p = str.c_str();
-        if (str.size()==0)
+
+        if (str.empty())
         {
-            res[*p] = 0;
+            res[str[0]] = 0;
             return res;
         }
 
@@ -26,22 +27,21 @@ public:
         char resChar;
         for (int i = 0; i < str.size(); ++i) {
 
-            if (hash.find(*p) != hash.end())
+            if (hash.find(str[i]) != hash.end())
             {
-                //cout << *p << endl;
-                if((hash[*p] = ++hash[*p])  > maxTime)
+                cout << str[i] << endl;
+                if((hash[str[i]] = ++hash[str[i]])  > maxTime)
                 {
-                    maxTime = hash[*p];
-                    resChar = *p;
-                    //cout << "maxTime=" << maxTime << *p << endl;
+                    maxTime = hash[str[i]];
+                    resChar = str[i];
+                    cout << "maxTime=" << maxTime <<" for "<< str[i] << endl;
                 }
 
             }
             else
             {
-                hash[*p] = 1;
+                hash[str[i]] = 1;
             }
-            p++;
 
         }
         res[resChar] = maxTime;
