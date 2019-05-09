@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chester/exercises/CodingInterviews
+CMAKE_SOURCE_DIR = /home/chester/fun/CodingInterviews
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chester/exercises/CodingInterviews/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chester/fun/CodingInterviews/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/chester/exercises/CodingInterviews/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/chester/softwares/clion-2019.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/chester/download/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named maxtimeofstring
+
+# Build rule for target.
+maxtimeofstring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxtimeofstring
+.PHONY : maxtimeofstring
+
+# fast build rule for target.
+maxtimeofstring/fast:
+	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/build
+.PHONY : maxtimeofstring/fast
 
 #=============================================================================
 # Target rules for targets named leetcode005
@@ -920,6 +933,33 @@ src/QuickSortdebug.cpp.s:
 	$(MAKE) -f CMakeFiles/QuickSortdebug.dir/build.make CMakeFiles/QuickSortdebug.dir/src/QuickSortdebug.cpp.s
 .PHONY : src/QuickSortdebug.cpp.s
 
+src/findMaxTimesOfString.o: src/findMaxTimesOfString.cpp.o
+
+.PHONY : src/findMaxTimesOfString.o
+
+# target to build an object file
+src/findMaxTimesOfString.cpp.o:
+	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/src/findMaxTimesOfString.cpp.o
+.PHONY : src/findMaxTimesOfString.cpp.o
+
+src/findMaxTimesOfString.i: src/findMaxTimesOfString.cpp.i
+
+.PHONY : src/findMaxTimesOfString.i
+
+# target to preprocess a source file
+src/findMaxTimesOfString.cpp.i:
+	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/src/findMaxTimesOfString.cpp.i
+.PHONY : src/findMaxTimesOfString.cpp.i
+
+src/findMaxTimesOfString.s: src/findMaxTimesOfString.cpp.s
+
+.PHONY : src/findMaxTimesOfString.s
+
+# target to generate assembly for a file
+src/findMaxTimesOfString.cpp.s:
+	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/src/findMaxTimesOfString.cpp.s
+.PHONY : src/findMaxTimesOfString.cpp.s
+
 src/leetcode001.o: src/leetcode001.cpp.o
 
 .PHONY : src/leetcode001.o
@@ -1198,6 +1238,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... maxtimeofstring"
 	@echo "... leetcode005"
 	@echo "... eg014"
 	@echo "... memory"
@@ -1276,6 +1317,9 @@ help:
 	@echo "... src/QuickSortdebug.o"
 	@echo "... src/QuickSortdebug.i"
 	@echo "... src/QuickSortdebug.s"
+	@echo "... src/findMaxTimesOfString.o"
+	@echo "... src/findMaxTimesOfString.i"
+	@echo "... src/findMaxTimesOfString.s"
 	@echo "... src/leetcode001.o"
 	@echo "... src/leetcode001.i"
 	@echo "... src/leetcode001.s"

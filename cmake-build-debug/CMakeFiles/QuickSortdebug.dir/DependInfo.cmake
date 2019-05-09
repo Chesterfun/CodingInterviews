@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chester/exercises/CodingInterviews/src/QuickSortdebug.cpp" "/home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles/QuickSortdebug.dir/src/QuickSortdebug.cpp.o"
+  "/home/chester/fun/CodingInterviews/src/QuickSortdebug.cpp" "/home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/QuickSortdebug.dir/src/QuickSortdebug.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
