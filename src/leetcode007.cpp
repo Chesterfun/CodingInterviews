@@ -17,7 +17,7 @@ public:
         long long t = x;               //需要先将x强制转换为long long型再判断正负
         t = t > 0? t:-t;
 
-        cout << t <<endl;
+        //cout << t <<endl;
 
         for (; t; t/=10) {
             r = r*10 + t%10;
@@ -36,29 +36,11 @@ public:
         }
     }
 
-    int reverse1 (int x) {
-        long long r = 0;
-        long long t = x;
-        t = t > 0 ? t : -t;
-
-        for (; t; t /= 10)
-            r = r * 10 + t % 10;
-        bool sign = x > 0 ? false : true;
-        if (r > 2147483647 || (sign && r > 2147483648)) {
-            return 0;
-        } else {
-            if (sign) {
-                return -r;
-            } else {
-                return r;
-            }
-        }
-    }
 };
 
 int main()
 {
-    int x = -2147483648;
+    int x = -123456789;
     Solution solu;
     cout << solu.reverse(x) << endl;
     return 0;
