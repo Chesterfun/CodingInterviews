@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chester/fun/CodingInterviews/src/leetcode001.cpp" "/home/chester/fun/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode001.dir/src/leetcode001.cpp.o"
+  "/home/chester/exercises/CodingInterviews/src/leetcode001.cpp" "/home/chester/exercises/CodingInterviews/cmake-build-debug/CMakeFiles/leetcode001.dir/src/leetcode001.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
