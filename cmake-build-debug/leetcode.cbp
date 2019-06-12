@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="leetcode015">
+				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode015" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode015"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode015/fast">
+				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode015" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode015/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="eg015">
 				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/eg015" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
@@ -1639,6 +1685,9 @@
 		</Unit>
 		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode014.cpp">
 			<Option target="leetcode014"/>
+		</Unit>
+		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode015.cpp">
+			<Option target="leetcode015"/>
 		</Unit>
 		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode021.cpp">
 			<Option target="leetcode021"/>
