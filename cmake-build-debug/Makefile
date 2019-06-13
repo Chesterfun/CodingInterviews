@@ -111,407 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named leetcode015
+# Target rules for targets named leetcode061
 
 # Build rule for target.
-leetcode015: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode015
-.PHONY : leetcode015
+leetcode061: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode061
+.PHONY : leetcode061
 
 # fast build rule for target.
-leetcode015/fast:
-	$(MAKE) -f CMakeFiles/leetcode015.dir/build.make CMakeFiles/leetcode015.dir/build
-.PHONY : leetcode015/fast
-
-#=============================================================================
-# Target rules for targets named eg015
-
-# Build rule for target.
-eg015: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg015
-.PHONY : eg015
-
-# fast build rule for target.
-eg015/fast:
-	$(MAKE) -f CMakeFiles/eg015.dir/build.make CMakeFiles/eg015.dir/build
-.PHONY : eg015/fast
-
-#=============================================================================
-# Target rules for targets named leetcode009
-
-# Build rule for target.
-leetcode009: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode009
-.PHONY : leetcode009
-
-# fast build rule for target.
-leetcode009/fast:
-	$(MAKE) -f CMakeFiles/leetcode009.dir/build.make CMakeFiles/leetcode009.dir/build
-.PHONY : leetcode009/fast
-
-#=============================================================================
-# Target rules for targets named leetcode011
-
-# Build rule for target.
-leetcode011: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode011
-.PHONY : leetcode011
-
-# fast build rule for target.
-leetcode011/fast:
-	$(MAKE) -f CMakeFiles/leetcode011.dir/build.make CMakeFiles/leetcode011.dir/build
-.PHONY : leetcode011/fast
-
-#=============================================================================
-# Target rules for targets named maxtimeofstring
-
-# Build rule for target.
-maxtimeofstring: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maxtimeofstring
-.PHONY : maxtimeofstring
-
-# fast build rule for target.
-maxtimeofstring/fast:
-	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/build
-.PHONY : maxtimeofstring/fast
-
-#=============================================================================
-# Target rules for targets named leetcode005
-
-# Build rule for target.
-leetcode005: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode005
-.PHONY : leetcode005
-
-# fast build rule for target.
-leetcode005/fast:
-	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/build
-.PHONY : leetcode005/fast
-
-#=============================================================================
-# Target rules for targets named eg014
-
-# Build rule for target.
-eg014: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg014
-.PHONY : eg014
-
-# fast build rule for target.
-eg014/fast:
-	$(MAKE) -f CMakeFiles/eg014.dir/build.make CMakeFiles/eg014.dir/build
-.PHONY : eg014/fast
-
-#=============================================================================
-# Target rules for targets named memory
-
-# Build rule for target.
-memory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 memory
-.PHONY : memory
-
-# fast build rule for target.
-memory/fast:
-	$(MAKE) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/build
-.PHONY : memory/fast
-
-#=============================================================================
-# Target rules for targets named leetcode021
-
-# Build rule for target.
-leetcode021: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode021
-.PHONY : leetcode021
-
-# fast build rule for target.
-leetcode021/fast:
-	$(MAKE) -f CMakeFiles/leetcode021.dir/build.make CMakeFiles/leetcode021.dir/build
-.PHONY : leetcode021/fast
-
-#=============================================================================
-# Target rules for targets named BubbleSort
-
-# Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BubbleSort
-.PHONY : BubbleSort
-
-# fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
-
-#=============================================================================
-# Target rules for targets named leetcode031
-
-# Build rule for target.
-leetcode031: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode031
-.PHONY : leetcode031
-
-# fast build rule for target.
-leetcode031/fast:
-	$(MAKE) -f CMakeFiles/leetcode031.dir/build.make CMakeFiles/leetcode031.dir/build
-.PHONY : leetcode031/fast
-
-#=============================================================================
-# Target rules for targets named leetcode001
-
-# Build rule for target.
-leetcode001: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode001
-.PHONY : leetcode001
-
-# fast build rule for target.
-leetcode001/fast:
-	$(MAKE) -f CMakeFiles/leetcode001.dir/build.make CMakeFiles/leetcode001.dir/build
-.PHONY : leetcode001/fast
-
-#=============================================================================
-# Target rules for targets named eg005added
-
-# Build rule for target.
-eg005added: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg005added
-.PHONY : eg005added
-
-# fast build rule for target.
-eg005added/fast:
-	$(MAKE) -f CMakeFiles/eg005added.dir/build.make CMakeFiles/eg005added.dir/build
-.PHONY : eg005added/fast
-
-#=============================================================================
-# Target rules for targets named leetcode007
-
-# Build rule for target.
-leetcode007: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode007
-.PHONY : leetcode007
-
-# fast build rule for target.
-leetcode007/fast:
-	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/build
-.PHONY : leetcode007/fast
-
-#=============================================================================
-# Target rules for targets named eg005
-
-# Build rule for target.
-eg005: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg005
-.PHONY : eg005
-
-# fast build rule for target.
-eg005/fast:
-	$(MAKE) -f CMakeFiles/eg005.dir/build.make CMakeFiles/eg005.dir/build
-.PHONY : eg005/fast
-
-#=============================================================================
-# Target rules for targets named leetcode008
-
-# Build rule for target.
-leetcode008: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode008
-.PHONY : leetcode008
-
-# fast build rule for target.
-leetcode008/fast:
-	$(MAKE) -f CMakeFiles/leetcode008.dir/build.make CMakeFiles/leetcode008.dir/build
-.PHONY : leetcode008/fast
-
-#=============================================================================
-# Target rules for targets named leetcode189
-
-# Build rule for target.
-leetcode189: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode189
-.PHONY : leetcode189
-
-# fast build rule for target.
-leetcode189/fast:
-	$(MAKE) -f CMakeFiles/leetcode189.dir/build.make CMakeFiles/leetcode189.dir/build
-.PHONY : leetcode189/fast
-
-#=============================================================================
-# Target rules for targets named eg052
-
-# Build rule for target.
-eg052: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg052
-.PHONY : eg052
-
-# fast build rule for target.
-eg052/fast:
-	$(MAKE) -f CMakeFiles/eg052.dir/build.make CMakeFiles/eg052.dir/build
-.PHONY : eg052/fast
-
-#=============================================================================
-# Target rules for targets named leetcode004
-
-# Build rule for target.
-leetcode004: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode004
-.PHONY : leetcode004
-
-# fast build rule for target.
-leetcode004/fast:
-	$(MAKE) -f CMakeFiles/leetcode004.dir/build.make CMakeFiles/leetcode004.dir/build
-.PHONY : leetcode004/fast
-
-#=============================================================================
-# Target rules for targets named eg007
-
-# Build rule for target.
-eg007: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg007
-.PHONY : eg007
-
-# fast build rule for target.
-eg007/fast:
-	$(MAKE) -f CMakeFiles/eg007.dir/build.make CMakeFiles/eg007.dir/build
-.PHONY : eg007/fast
-
-#=============================================================================
-# Target rules for targets named 009added
-
-# Build rule for target.
-009added: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 009added
-.PHONY : 009added
-
-# fast build rule for target.
-009added/fast:
-	$(MAKE) -f CMakeFiles/009added.dir/build.make CMakeFiles/009added.dir/build
-.PHONY : 009added/fast
-
-#=============================================================================
-# Target rules for targets named eg004
-
-# Build rule for target.
-eg004: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg004
-.PHONY : eg004
-
-# fast build rule for target.
-eg004/fast:
-	$(MAKE) -f CMakeFiles/eg004.dir/build.make CMakeFiles/eg004.dir/build
-.PHONY : eg004/fast
-
-#=============================================================================
-# Target rules for targets named eg009
-
-# Build rule for target.
-eg009: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg009
-.PHONY : eg009
-
-# fast build rule for target.
-eg009/fast:
-	$(MAKE) -f CMakeFiles/eg009.dir/build.make CMakeFiles/eg009.dir/build
-.PHONY : eg009/fast
-
-#=============================================================================
-# Target rules for targets named MergeSort
-
-# Build rule for target.
-MergeSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MergeSort
-.PHONY : MergeSort
-
-# fast build rule for target.
-MergeSort/fast:
-	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/build
-.PHONY : MergeSort/fast
-
-#=============================================================================
-# Target rules for targets named 009debug
-
-# Build rule for target.
-009debug: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 009debug
-.PHONY : 009debug
-
-# fast build rule for target.
-009debug/fast:
-	$(MAKE) -f CMakeFiles/009debug.dir/build.make CMakeFiles/009debug.dir/build
-.PHONY : 009debug/fast
-
-#=============================================================================
-# Target rules for targets named QuickSort
-
-# Build rule for target.
-QuickSort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QuickSort
-.PHONY : QuickSort
-
-# fast build rule for target.
-QuickSort/fast:
-	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
-.PHONY : QuickSort/fast
-
-#=============================================================================
-# Target rules for targets named 007debug
-
-# Build rule for target.
-007debug: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 007debug
-.PHONY : 007debug
-
-# fast build rule for target.
-007debug/fast:
-	$(MAKE) -f CMakeFiles/007debug.dir/build.make CMakeFiles/007debug.dir/build
-.PHONY : 007debug/fast
-
-#=============================================================================
-# Target rules for targets named eg010
-
-# Build rule for target.
-eg010: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eg010
-.PHONY : eg010
-
-# fast build rule for target.
-eg010/fast:
-	$(MAKE) -f CMakeFiles/eg010.dir/build.make CMakeFiles/eg010.dir/build
-.PHONY : eg010/fast
-
-#=============================================================================
-# Target rules for targets named leetcode014
-
-# Build rule for target.
-leetcode014: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode014
-.PHONY : leetcode014
-
-# fast build rule for target.
-leetcode014/fast:
-	$(MAKE) -f CMakeFiles/leetcode014.dir/build.make CMakeFiles/leetcode014.dir/build
-.PHONY : leetcode014/fast
-
-#=============================================================================
-# Target rules for targets named QuickSortdebug
-
-# Build rule for target.
-QuickSortdebug: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QuickSortdebug
-.PHONY : QuickSortdebug
-
-# fast build rule for target.
-QuickSortdebug/fast:
-	$(MAKE) -f CMakeFiles/QuickSortdebug.dir/build.make CMakeFiles/QuickSortdebug.dir/build
-.PHONY : QuickSortdebug/fast
-
-#=============================================================================
-# Target rules for targets named leetcode002
-
-# Build rule for target.
-leetcode002: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode002
-.PHONY : leetcode002
-
-# fast build rule for target.
-leetcode002/fast:
-	$(MAKE) -f CMakeFiles/leetcode002.dir/build.make CMakeFiles/leetcode002.dir/build
-.PHONY : leetcode002/fast
+leetcode061/fast:
+	$(MAKE) -f CMakeFiles/leetcode061.dir/build.make CMakeFiles/leetcode061.dir/build
+.PHONY : leetcode061/fast
 
 #=============================================================================
 # Target rules for targets named eg006
@@ -527,6 +137,58 @@ eg006/fast:
 .PHONY : eg006/fast
 
 #=============================================================================
+# Target rules for targets named leetcode002
+
+# Build rule for target.
+leetcode002: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode002
+.PHONY : leetcode002
+
+# fast build rule for target.
+leetcode002/fast:
+	$(MAKE) -f CMakeFiles/leetcode002.dir/build.make CMakeFiles/leetcode002.dir/build
+.PHONY : leetcode002/fast
+
+#=============================================================================
+# Target rules for targets named QuickSortdebug
+
+# Build rule for target.
+QuickSortdebug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QuickSortdebug
+.PHONY : QuickSortdebug
+
+# fast build rule for target.
+QuickSortdebug/fast:
+	$(MAKE) -f CMakeFiles/QuickSortdebug.dir/build.make CMakeFiles/QuickSortdebug.dir/build
+.PHONY : QuickSortdebug/fast
+
+#=============================================================================
+# Target rules for targets named leetcode014
+
+# Build rule for target.
+leetcode014: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode014
+.PHONY : leetcode014
+
+# fast build rule for target.
+leetcode014/fast:
+	$(MAKE) -f CMakeFiles/leetcode014.dir/build.make CMakeFiles/leetcode014.dir/build
+.PHONY : leetcode014/fast
+
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
+#=============================================================================
 # Target rules for targets named eg011
 
 # Build rule for target.
@@ -540,17 +202,368 @@ eg011/fast:
 .PHONY : eg011/fast
 
 #=============================================================================
-# Target rules for targets named leetcode061
+# Target rules for targets named MergeSort
 
 # Build rule for target.
-leetcode061: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode061
-.PHONY : leetcode061
+MergeSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MergeSort
+.PHONY : MergeSort
 
 # fast build rule for target.
-leetcode061/fast:
-	$(MAKE) -f CMakeFiles/leetcode061.dir/build.make CMakeFiles/leetcode061.dir/build
-.PHONY : leetcode061/fast
+MergeSort/fast:
+	$(MAKE) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
+#=============================================================================
+# Target rules for targets named eg009
+
+# Build rule for target.
+eg009: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg009
+.PHONY : eg009
+
+# fast build rule for target.
+eg009/fast:
+	$(MAKE) -f CMakeFiles/eg009.dir/build.make CMakeFiles/eg009.dir/build
+.PHONY : eg009/fast
+
+#=============================================================================
+# Target rules for targets named eg004
+
+# Build rule for target.
+eg004: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg004
+.PHONY : eg004
+
+# fast build rule for target.
+eg004/fast:
+	$(MAKE) -f CMakeFiles/eg004.dir/build.make CMakeFiles/eg004.dir/build
+.PHONY : eg004/fast
+
+#=============================================================================
+# Target rules for targets named eg007
+
+# Build rule for target.
+eg007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg007
+.PHONY : eg007
+
+# fast build rule for target.
+eg007/fast:
+	$(MAKE) -f CMakeFiles/eg007.dir/build.make CMakeFiles/eg007.dir/build
+.PHONY : eg007/fast
+
+#=============================================================================
+# Target rules for targets named eg052
+
+# Build rule for target.
+eg052: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg052
+.PHONY : eg052
+
+# fast build rule for target.
+eg052/fast:
+	$(MAKE) -f CMakeFiles/eg052.dir/build.make CMakeFiles/eg052.dir/build
+.PHONY : eg052/fast
+
+#=============================================================================
+# Target rules for targets named leetcode189
+
+# Build rule for target.
+leetcode189: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode189
+.PHONY : leetcode189
+
+# fast build rule for target.
+leetcode189/fast:
+	$(MAKE) -f CMakeFiles/leetcode189.dir/build.make CMakeFiles/leetcode189.dir/build
+.PHONY : leetcode189/fast
+
+#=============================================================================
+# Target rules for targets named leetcode008
+
+# Build rule for target.
+leetcode008: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode008
+.PHONY : leetcode008
+
+# fast build rule for target.
+leetcode008/fast:
+	$(MAKE) -f CMakeFiles/leetcode008.dir/build.make CMakeFiles/leetcode008.dir/build
+.PHONY : leetcode008/fast
+
+#=============================================================================
+# Target rules for targets named eg005
+
+# Build rule for target.
+eg005: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg005
+.PHONY : eg005
+
+# fast build rule for target.
+eg005/fast:
+	$(MAKE) -f CMakeFiles/eg005.dir/build.make CMakeFiles/eg005.dir/build
+.PHONY : eg005/fast
+
+#=============================================================================
+# Target rules for targets named leetcode007
+
+# Build rule for target.
+leetcode007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode007
+.PHONY : leetcode007
+
+# fast build rule for target.
+leetcode007/fast:
+	$(MAKE) -f CMakeFiles/leetcode007.dir/build.make CMakeFiles/leetcode007.dir/build
+.PHONY : leetcode007/fast
+
+#=============================================================================
+# Target rules for targets named eg005added
+
+# Build rule for target.
+eg005added: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg005added
+.PHONY : eg005added
+
+# fast build rule for target.
+eg005added/fast:
+	$(MAKE) -f CMakeFiles/eg005added.dir/build.make CMakeFiles/eg005added.dir/build
+.PHONY : eg005added/fast
+
+#=============================================================================
+# Target rules for targets named eg010
+
+# Build rule for target.
+eg010: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg010
+.PHONY : eg010
+
+# fast build rule for target.
+eg010/fast:
+	$(MAKE) -f CMakeFiles/eg010.dir/build.make CMakeFiles/eg010.dir/build
+.PHONY : eg010/fast
+
+#=============================================================================
+# Target rules for targets named leetcode031
+
+# Build rule for target.
+leetcode031: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode031
+.PHONY : leetcode031
+
+# fast build rule for target.
+leetcode031/fast:
+	$(MAKE) -f CMakeFiles/leetcode031.dir/build.make CMakeFiles/leetcode031.dir/build
+.PHONY : leetcode031/fast
+
+#=============================================================================
+# Target rules for targets named BubbleSort
+
+# Build rule for target.
+BubbleSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BubbleSort
+.PHONY : BubbleSort
+
+# fast build rule for target.
+BubbleSort/fast:
+	$(MAKE) -f CMakeFiles/BubbleSort.dir/build.make CMakeFiles/BubbleSort.dir/build
+.PHONY : BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named leetcode021
+
+# Build rule for target.
+leetcode021: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode021
+.PHONY : leetcode021
+
+# fast build rule for target.
+leetcode021/fast:
+	$(MAKE) -f CMakeFiles/leetcode021.dir/build.make CMakeFiles/leetcode021.dir/build
+.PHONY : leetcode021/fast
+
+#=============================================================================
+# Target rules for targets named leetcode001
+
+# Build rule for target.
+leetcode001: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode001
+.PHONY : leetcode001
+
+# fast build rule for target.
+leetcode001/fast:
+	$(MAKE) -f CMakeFiles/leetcode001.dir/build.make CMakeFiles/leetcode001.dir/build
+.PHONY : leetcode001/fast
+
+#=============================================================================
+# Target rules for targets named memory
+
+# Build rule for target.
+memory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 memory
+.PHONY : memory
+
+# fast build rule for target.
+memory/fast:
+	$(MAKE) -f CMakeFiles/memory.dir/build.make CMakeFiles/memory.dir/build
+.PHONY : memory/fast
+
+#=============================================================================
+# Target rules for targets named eg014
+
+# Build rule for target.
+eg014: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg014
+.PHONY : eg014
+
+# fast build rule for target.
+eg014/fast:
+	$(MAKE) -f CMakeFiles/eg014.dir/build.make CMakeFiles/eg014.dir/build
+.PHONY : eg014/fast
+
+#=============================================================================
+# Target rules for targets named leetcode005
+
+# Build rule for target.
+leetcode005: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode005
+.PHONY : leetcode005
+
+# fast build rule for target.
+leetcode005/fast:
+	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/build
+.PHONY : leetcode005/fast
+
+#=============================================================================
+# Target rules for targets named leetcode004
+
+# Build rule for target.
+leetcode004: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode004
+.PHONY : leetcode004
+
+# fast build rule for target.
+leetcode004/fast:
+	$(MAKE) -f CMakeFiles/leetcode004.dir/build.make CMakeFiles/leetcode004.dir/build
+.PHONY : leetcode004/fast
+
+#=============================================================================
+# Target rules for targets named maxtimeofstring
+
+# Build rule for target.
+maxtimeofstring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxtimeofstring
+.PHONY : maxtimeofstring
+
+# fast build rule for target.
+maxtimeofstring/fast:
+	$(MAKE) -f CMakeFiles/maxtimeofstring.dir/build.make CMakeFiles/maxtimeofstring.dir/build
+.PHONY : maxtimeofstring/fast
+
+#=============================================================================
+# Target rules for targets named leetcode011
+
+# Build rule for target.
+leetcode011: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode011
+.PHONY : leetcode011
+
+# fast build rule for target.
+leetcode011/fast:
+	$(MAKE) -f CMakeFiles/leetcode011.dir/build.make CMakeFiles/leetcode011.dir/build
+.PHONY : leetcode011/fast
+
+#=============================================================================
+# Target rules for targets named leetcode009
+
+# Build rule for target.
+leetcode009: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode009
+.PHONY : leetcode009
+
+# fast build rule for target.
+leetcode009/fast:
+	$(MAKE) -f CMakeFiles/leetcode009.dir/build.make CMakeFiles/leetcode009.dir/build
+.PHONY : leetcode009/fast
+
+#=============================================================================
+# Target rules for targets named 007debug
+
+# Build rule for target.
+007debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 007debug
+.PHONY : 007debug
+
+# fast build rule for target.
+007debug/fast:
+	$(MAKE) -f CMakeFiles/007debug.dir/build.make CMakeFiles/007debug.dir/build
+.PHONY : 007debug/fast
+
+#=============================================================================
+# Target rules for targets named eg015
+
+# Build rule for target.
+eg015: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eg015
+.PHONY : eg015
+
+# fast build rule for target.
+eg015/fast:
+	$(MAKE) -f CMakeFiles/eg015.dir/build.make CMakeFiles/eg015.dir/build
+.PHONY : eg015/fast
+
+#=============================================================================
+# Target rules for targets named 009debug
+
+# Build rule for target.
+009debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 009debug
+.PHONY : 009debug
+
+# fast build rule for target.
+009debug/fast:
+	$(MAKE) -f CMakeFiles/009debug.dir/build.make CMakeFiles/009debug.dir/build
+.PHONY : 009debug/fast
+
+#=============================================================================
+# Target rules for targets named leetcode015
+
+# Build rule for target.
+leetcode015: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode015
+.PHONY : leetcode015
+
+# fast build rule for target.
+leetcode015/fast:
+	$(MAKE) -f CMakeFiles/leetcode015.dir/build.make CMakeFiles/leetcode015.dir/build
+.PHONY : leetcode015/fast
+
+#=============================================================================
+# Target rules for targets named 009added
+
+# Build rule for target.
+009added: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 009added
+.PHONY : 009added
+
+# fast build rule for target.
+009added/fast:
+	$(MAKE) -f CMakeFiles/009added.dir/build.make CMakeFiles/009added.dir/build
+.PHONY : 009added/fast
+
+#=============================================================================
+# Target rules for targets named leetcode016
+
+# Build rule for target.
+leetcode016: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode016
+.PHONY : leetcode016
+
+# fast build rule for target.
+leetcode016/fast:
+	$(MAKE) -f CMakeFiles/leetcode016.dir/build.make CMakeFiles/leetcode016.dir/build
+.PHONY : leetcode016/fast
 
 src/007debug.o: src/007debug.cpp.o
 
@@ -1335,6 +1348,33 @@ src/leetcode015.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode015.dir/build.make CMakeFiles/leetcode015.dir/src/leetcode015.cpp.s
 .PHONY : src/leetcode015.cpp.s
 
+src/leetcode016.o: src/leetcode016.cpp.o
+
+.PHONY : src/leetcode016.o
+
+# target to build an object file
+src/leetcode016.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode016.dir/build.make CMakeFiles/leetcode016.dir/src/leetcode016.cpp.o
+.PHONY : src/leetcode016.cpp.o
+
+src/leetcode016.i: src/leetcode016.cpp.i
+
+.PHONY : src/leetcode016.i
+
+# target to preprocess a source file
+src/leetcode016.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode016.dir/build.make CMakeFiles/leetcode016.dir/src/leetcode016.cpp.i
+.PHONY : src/leetcode016.cpp.i
+
+src/leetcode016.s: src/leetcode016.cpp.s
+
+.PHONY : src/leetcode016.s
+
+# target to generate assembly for a file
+src/leetcode016.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode016.dir/build.make CMakeFiles/leetcode016.dir/src/leetcode016.cpp.s
+.PHONY : src/leetcode016.cpp.s
+
 src/leetcode021.o: src/leetcode021.cpp.o
 
 .PHONY : src/leetcode021.o
@@ -1476,42 +1516,43 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... leetcode015"
-	@echo "... eg015"
-	@echo "... leetcode009"
-	@echo "... leetcode011"
-	@echo "... maxtimeofstring"
-	@echo "... leetcode005"
-	@echo "... eg014"
-	@echo "... memory"
-	@echo "... leetcode021"
-	@echo "... BubbleSort"
-	@echo "... leetcode031"
-	@echo "... leetcode001"
-	@echo "... eg005added"
-	@echo "... leetcode007"
-	@echo "... eg005"
-	@echo "... leetcode008"
-	@echo "... leetcode189"
-	@echo "... eg052"
-	@echo "... leetcode004"
-	@echo "... eg007"
-	@echo "... 009added"
-	@echo "... eg004"
-	@echo "... eg009"
-	@echo "... MergeSort"
-	@echo "... 009debug"
-	@echo "... QuickSort"
-	@echo "... 007debug"
-	@echo "... eg010"
-	@echo "... leetcode014"
-	@echo "... QuickSortdebug"
-	@echo "... leetcode002"
-	@echo "... eg006"
-	@echo "... eg011"
 	@echo "... leetcode061"
+	@echo "... eg006"
+	@echo "... leetcode002"
+	@echo "... QuickSortdebug"
+	@echo "... leetcode014"
+	@echo "... QuickSort"
+	@echo "... eg011"
+	@echo "... MergeSort"
+	@echo "... rebuild_cache"
+	@echo "... eg009"
+	@echo "... eg004"
+	@echo "... eg007"
+	@echo "... eg052"
+	@echo "... leetcode189"
+	@echo "... leetcode008"
+	@echo "... eg005"
+	@echo "... leetcode007"
+	@echo "... eg005added"
+	@echo "... eg010"
+	@echo "... leetcode031"
+	@echo "... BubbleSort"
+	@echo "... leetcode021"
+	@echo "... leetcode001"
+	@echo "... memory"
+	@echo "... eg014"
+	@echo "... leetcode005"
+	@echo "... leetcode004"
+	@echo "... maxtimeofstring"
+	@echo "... leetcode011"
+	@echo "... leetcode009"
+	@echo "... 007debug"
+	@echo "... eg015"
+	@echo "... 009debug"
+	@echo "... leetcode015"
+	@echo "... 009added"
+	@echo "... leetcode016"
+	@echo "... edit_cache"
 	@echo "... src/007debug.o"
 	@echo "... src/007debug.i"
 	@echo "... src/007debug.s"
@@ -1599,6 +1640,9 @@ help:
 	@echo "... src/leetcode015.o"
 	@echo "... src/leetcode015.i"
 	@echo "... src/leetcode015.s"
+	@echo "... src/leetcode016.o"
+	@echo "... src/leetcode016.i"
+	@echo "... src/leetcode016.s"
 	@echo "... src/leetcode021.o"
 	@echo "... src/leetcode021.i"
 	@echo "... src/leetcode021.s"
