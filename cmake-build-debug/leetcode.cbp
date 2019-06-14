@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="leetcode061">
 				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode061" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
@@ -1177,6 +1187,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="leetcode020">
+				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode020" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode020"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode020/fast">
+				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode020" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode020/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="leetcode004">
 				<Option output="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/leetcode004" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
@@ -1637,16 +1693,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/chester/CodingInterviews/CodingInterviews/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/007debug.cpp">
 			<Option target="007debug"/>
@@ -1737,6 +1783,9 @@
 		</Unit>
 		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode016.cpp">
 			<Option target="leetcode016"/>
+		</Unit>
+		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode020.cpp">
+			<Option target="leetcode020"/>
 		</Unit>
 		<Unit filename="/home/chester/CodingInterviews/CodingInterviews/src/leetcode021.cpp">
 			<Option target="leetcode021"/>

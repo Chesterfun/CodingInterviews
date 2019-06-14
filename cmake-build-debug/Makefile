@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/chester/CodingInterviews/CodingInterviews/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/chester/Downloads/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/chester/Downloads/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -434,6 +434,19 @@ leetcode005: cmake_check_build_system
 leetcode005/fast:
 	$(MAKE) -f CMakeFiles/leetcode005.dir/build.make CMakeFiles/leetcode005.dir/build
 .PHONY : leetcode005/fast
+
+#=============================================================================
+# Target rules for targets named leetcode020
+
+# Build rule for target.
+leetcode020: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode020
+.PHONY : leetcode020
+
+# fast build rule for target.
+leetcode020/fast:
+	$(MAKE) -f CMakeFiles/leetcode020.dir/build.make CMakeFiles/leetcode020.dir/build
+.PHONY : leetcode020/fast
 
 #=============================================================================
 # Target rules for targets named leetcode004
@@ -1375,6 +1388,33 @@ src/leetcode016.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode016.dir/build.make CMakeFiles/leetcode016.dir/src/leetcode016.cpp.s
 .PHONY : src/leetcode016.cpp.s
 
+src/leetcode020.o: src/leetcode020.cpp.o
+
+.PHONY : src/leetcode020.o
+
+# target to build an object file
+src/leetcode020.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode020.dir/build.make CMakeFiles/leetcode020.dir/src/leetcode020.cpp.o
+.PHONY : src/leetcode020.cpp.o
+
+src/leetcode020.i: src/leetcode020.cpp.i
+
+.PHONY : src/leetcode020.i
+
+# target to preprocess a source file
+src/leetcode020.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode020.dir/build.make CMakeFiles/leetcode020.dir/src/leetcode020.cpp.i
+.PHONY : src/leetcode020.cpp.i
+
+src/leetcode020.s: src/leetcode020.cpp.s
+
+.PHONY : src/leetcode020.s
+
+# target to generate assembly for a file
+src/leetcode020.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode020.dir/build.make CMakeFiles/leetcode020.dir/src/leetcode020.cpp.s
+.PHONY : src/leetcode020.cpp.s
+
 src/leetcode021.o: src/leetcode021.cpp.o
 
 .PHONY : src/leetcode021.o
@@ -1516,6 +1556,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... leetcode061"
 	@echo "... eg006"
 	@echo "... leetcode002"
@@ -1542,6 +1583,7 @@ help:
 	@echo "... memory"
 	@echo "... eg014"
 	@echo "... leetcode005"
+	@echo "... leetcode020"
 	@echo "... leetcode004"
 	@echo "... maxtimeofstring"
 	@echo "... leetcode011"
@@ -1552,7 +1594,6 @@ help:
 	@echo "... leetcode015"
 	@echo "... 009added"
 	@echo "... leetcode016"
-	@echo "... edit_cache"
 	@echo "... src/007debug.o"
 	@echo "... src/007debug.i"
 	@echo "... src/007debug.s"
@@ -1643,6 +1684,9 @@ help:
 	@echo "... src/leetcode016.o"
 	@echo "... src/leetcode016.i"
 	@echo "... src/leetcode016.s"
+	@echo "... src/leetcode020.o"
+	@echo "... src/leetcode020.i"
+	@echo "... src/leetcode020.s"
 	@echo "... src/leetcode021.o"
 	@echo "... src/leetcode021.i"
 	@echo "... src/leetcode021.s"
