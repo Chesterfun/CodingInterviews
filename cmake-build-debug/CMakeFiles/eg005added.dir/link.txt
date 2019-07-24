@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/eg005added.dir/src/CodingInterviews005added.cpp.o  -o eg005added 

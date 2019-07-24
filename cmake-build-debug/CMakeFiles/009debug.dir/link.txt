@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/009debug.dir/src/009debug.cpp.o  -o 009debug 

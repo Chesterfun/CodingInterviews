@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode189.dir/src/leetcode189.cpp.o  -o leetcode189 

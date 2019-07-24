@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode002.dir/src/leetcode002.cpp.o  -o leetcode002 

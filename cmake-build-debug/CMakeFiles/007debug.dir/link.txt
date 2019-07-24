@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/007debug.dir/src/007debug.cpp.o  -o 007debug 
