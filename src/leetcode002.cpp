@@ -42,25 +42,16 @@ public:
 
 int main()
 {
-    ListNode list1[4] = {0,0,0,0};
-    list1[0].val = 3;
+    ListNode list1[4] = {1,2,3,4};
     list1[0].next = &list1[1];
-    list1[1].val = 6;
     list1[1].next = &list1[2];
-    list1[2].val = 3;
     list1[2].next = &list1[3];
-    list1[3].val = 7;
     list1[3].next = NULL;
 
-    ListNode list2[4] = {0,0,0,0};
-    list2[0].val = 1;
+    ListNode list2[3] = {0,9,1};
     list2[0].next = &list2[1];
-    list2[1].val = 4;
     list2[1].next = &list2[2];
-    list2[2].val = 8;
-    list2[2].next = &list2[3];
-    list2[3].val = 4;
-    list2[3].next = NULL;
+    list2[2].next = NULL;
 
     Solution solu;
     ListNode* res = solu.addTwoNumbers(list1, list2);
