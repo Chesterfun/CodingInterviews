@@ -1,4 +1,4 @@
-CMakeFiles
+cmake-build-debug/
 *.make
 *.cmake
 *.txt
@@ -13,4 +13,3 @@ CMakeFiles
 
 .idea
 
-cmake-build-debug
