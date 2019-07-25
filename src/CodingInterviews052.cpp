@@ -41,11 +41,11 @@ public:
         }
 
         ///  开始同步弹出元素
-        while(leftStack.empty( ) != true
-              && rightStack.empty( ) != true)
+        while(leftStack.empty() != true
+              && rightStack.empty() != true)
         {
-            left = leftStack.top( );
-            right = rightStack.top( );
+            left = leftStack.top();
+            right = rightStack.top();
 
             //debug <<left->val <<", " <<right->val <<endl;
 
@@ -54,8 +54,8 @@ public:
             {
                 break;
             }
-            leftStack.pop( );
-            rightStack.pop( );
+            leftStack.pop();
+            rightStack.pop();
         }
 
         ///  不相同元素的下一个结点就是共同结点
