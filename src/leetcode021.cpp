@@ -18,7 +18,7 @@ using namespace std;
 
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {           //递归版本
         if(l1 == nullptr)
             return l2;
         else if(l2 == nullptr)
@@ -35,6 +35,31 @@ public:
         }
         return pMergeHead;
 
+    }
+
+    ListNode *mergeTwoLists1(ListNode *l1, ListNode *l2) {          //临时头节点解法
+        ListNode temp_head(-1);
+        ListNode *phead = &temp_head;
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
+                phead->next = l1;
+                l1 = l1->next;
+            }
+            else {
+                phead->next = l2;
+                l2 = l2->next;
+            }
+            phead = phead->next;
+        }
+
+        if (l1) {
+            phead->next = l1;
+        }
+        if (l2) {
+            phead->next = l2;
+        }
+
+        return temp_head.next;
     }
 };
 
@@ -62,7 +87,7 @@ int main( )
     print_list(list1);
     print_list(list2);
     Solution solu;
-    ListNode *mergeNode = solu.mergeTwoLists(list1,list2);
+    ListNode *mergeNode = solu.mergeTwoLists1(list1,list2);
     print_list(mergeNode);
     return 0;
 }
