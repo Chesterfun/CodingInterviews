@@ -1,6 +1,7 @@
 //
 // Created by chester on 19-7-30.
 // 使用栈实现队列
+// 思路：利用一个临时栈，在push操作里，实现存储数据的栈里的数据顺序反向即可
 //
 
 #include <iostream>
