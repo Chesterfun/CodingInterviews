@@ -1,6 +1,7 @@
 //
 // Created by chester on 19-7-30.
 // 用两个队列实现栈
+// 思路：利用一个临时队列，在push操作里，实现存储数据的队列里的数据顺序反向即可
 //
 
 #include <iostream>
