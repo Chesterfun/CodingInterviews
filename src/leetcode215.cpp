@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <queue>
+#include <vector>
 
 using namespace std;
 
@@ -30,7 +31,7 @@ public:
 };
 
 int main() {
-    vector<int> nums = {-1,2,0};
+    vector<int> nums = {-1,2,0,9};
     Solution solu;
     cout << solu.findKthLargest(nums,2) << endl;
     return 0;
