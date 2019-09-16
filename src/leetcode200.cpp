@@ -44,7 +44,7 @@ private:
                 continue;
             }
             if (mark[new_x][new_y] == 0 && grid[new_x][new_y] == '1') {
-                BFS(grid, mark, new_x, new_y);
+                DFS(grid, mark, new_x, new_y);
             }
         }
     }
