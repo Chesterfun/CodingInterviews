@@ -1,6 +1,6 @@
 //
 // Created by shmil on 2019/9/17.
-// 找零钱
+// 找零钱，给定总金额和面值，求组成金额的最少零钱张数
 
 #include <iostream>
 #include <vector>
