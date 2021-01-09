@@ -12,6 +12,6 @@ cmake-build-debug/
 *.dir
 
 .idea
-.vcxproj
-vcxproj.filters
-.vcxproj.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
